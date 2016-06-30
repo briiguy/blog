@@ -13,7 +13,7 @@ const app = function() {
             return (
                 <div className="appContainer">
                     <SearchBar listingData={this.props.searchItems}/>
-                    <CategoryBar />
+                    
                     <MultiListingDisplay listingData={this.props.listingData}  />
 
 
@@ -30,7 +30,7 @@ const app = function() {
                 return(
                     <div className="appContainer">
                     <SearchBar listingData={this.props.searchItems} />
-                    <CategoryBar />
+                    
                     <SingleListingSummary />
                     </div>
             )
@@ -66,18 +66,6 @@ const app = function() {
 	})
 
 
-var CategoryBar = React.createClass({
-        render: function() {
-            return (
-
-           
-
-
-
-
-                )
-        }
-    })
 
 
 
